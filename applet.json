@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "linspectacles-gpu-inspector",
+  "name": "GPU Inspector",
+  "version": "0.0.4",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organisation": "LinSpectacles",
+  "repository": "https://github.com/linspectacles/gpu-inspector",
+  "layer": "Hardware",
+  "order": 330,
+  "entrypoint": "gpu_inspector/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only Linux GPU and DRM node, client, memory and engine inspection using ordinary sysfs and procfs sources.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true,
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/"
+}
